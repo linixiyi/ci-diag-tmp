@@ -1,0 +1,7 @@
+name: T
+on: push
+jobs:
+  s:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo ok
