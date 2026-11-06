@@ -1,0 +1,7 @@
+name: T2
+on: push
+jobs:
+  s:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo public-ok
